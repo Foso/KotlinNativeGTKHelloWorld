@@ -5,9 +5,9 @@
       <configuration version="3" platform="Native " allPlatforms="Native []" useProjectSettings="false" isTestModule="true" externalProjectId="KotlinNativeGTKHelloWorld">
         <dependsOnModuleNames>KotlinNativeGTKHelloWorld_commonTest</dependsOnModuleNames>
         <sourceSets>
-          <sourceSet>KotlinNativeGTKHelloWorld.gtkMain</sourceSet>
-          <sourceSet>KotlinNativeGTKHelloWorld.commonMain</sourceSet>
           <sourceSet>KotlinNativeGTKHelloWorld.commonTest</sourceSet>
+          <sourceSet>KotlinNativeGTKHelloWorld.commonMain</sourceSet>
+          <sourceSet>KotlinNativeGTKHelloWorld.gtkMain</sourceSet>
         </sourceSets>
         <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
         <externalSystemTestTasks>gtkTest|KotlinNativeGTKHelloWorld:gtkTest|gtk</externalSystemTestTasks>
