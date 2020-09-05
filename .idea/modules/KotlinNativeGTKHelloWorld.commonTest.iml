@@ -2,13 +2,15 @@
 <module version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []" useProjectSettings="false" isTestModule="true" externalProjectId="KotlinNativeGTKHelloWorld">
+      <configuration version="3" platform="Common (experimental) " allPlatforms="JS []/JVM [1.6]/Native []/Native [general]" useProjectSettings="false" isTestModule="true" externalProjectId="KotlinNativeGTKHelloWorld">
         <newMppModelJpsModuleKind>SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
-        <externalSystemTestTasks>gtkTest|KotlinNativeGTKHelloWorld:gtkTest|gtk</externalSystemTestTasks>
+        <externalSystemTestTasks>
+          <externalSystemTestTask>gtkTest|KotlinNativeGTKHelloWorld:gtkTest|gtk</externalSystemTestTask>
+        </externalSystemTestTasks>
         <compilerSettings />
         <compilerArguments>
-          <option name="languageVersion" value="1.3" />
-          <option name="apiVersion" value="1.3" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
           <option name="pluginOptions">
             <array />
           </option>
